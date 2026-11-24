@@ -1,0 +1,10 @@
+[
+ {
+  "doc_type": "Quotation",
+  "doctype_or_field": "DocField",
+  "field_name": "naming_series",
+  "property": "options",
+  "property_type": "Text",
+  "value": "SAL-QTN-2026-"
+ }
+]

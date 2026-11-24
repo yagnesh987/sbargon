@@ -5,6 +5,17 @@ app_description = "Amusement Argon Amusement Rides Pvt. Ltd"
 app_email = "yagneshprajapati987@gmail.com"
 app_license = "mit"
 
+# Customizations exported from the SBargon site.
+# Keep the Quotation year fixed at 2026 until the series changes in March.
+fixtures = [
+	{
+		"dt": "Property Setter",
+		"filters": [
+			["name", "=", "Quotation-naming_series-options"],
+		],
+	},
+]
+
 # Apps
 # ------------------
 
@@ -261,4 +272,3 @@ app_license = "mit"
 # ------------
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
-
